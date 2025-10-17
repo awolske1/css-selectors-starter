@@ -486,7 +486,7 @@ span.required {
     select all of the submit buttons (by tag name/type attribute) on the page
 */
 /* ----- */
-input {
+input[type="submit"] {
     display: block;
     margin: 32px auto 16px;
     width: 100%;
@@ -509,7 +509,7 @@ input {
     select all of the submit buttons on hover (by tag name/type attribute name) on the page
 */
 /* ----- */
-{
+input[type="submit"]:hover {
     box-shadow: var(--box-shadow-sm);
     color: var(--purple);
     background-color: var(--lt-gray);
@@ -521,7 +521,7 @@ input {
     select all of the submit buttons on focus (by tag name/type attribute/pseudo-class) on the page
 */
 /* ----- */
-{
+input[type="submit"]:focus {
     box-shadow: var(--box-shadow-sm);
     outline: 4px solid var(--dv-dk-blue);
     outline-offset: 1px;
@@ -536,7 +536,7 @@ input {
     select the h2 in the list styling section using the class name selector
 */
 /* ----- */
-{
+#list h2{
     color: var(--blue);
 }
 
