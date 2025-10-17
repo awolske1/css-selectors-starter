@@ -546,7 +546,7 @@ input[type="submit"]:focus {
     select the unordered list in the list styling container using the id and tag name selectors
 */
 /* ----- */
-{
+#list ul {
     display: block;
     width: fit-content;
     margin: 32px auto;
@@ -558,7 +558,7 @@ input[type="submit"]:focus {
     select all of the list items in the list styling container using the ID and tag name selectors
 */
 /* ----- */
-{
+#list li {
     font-size: 1.25rem;
     line-height: 1.35;
     margin-bottom: 8px;
@@ -571,7 +571,7 @@ input[type="submit"]:focus {
     select the bullets on the unordered list in the list styling section using the tag name and pseudo-class selectors
 */
 /* ----- */
-{
+#list li::marker {
     font-size: 3rem;
     content: "\2730";
 }
@@ -582,7 +582,7 @@ input[type="submit"]:focus {
     select the first list item in the list styling container using the ID, tag name, and pseudo-class selectors
 */
 /* ----- */
-{
+#list li:first-child {
     color: var(--purple);
 }
 
@@ -592,7 +592,7 @@ input[type="submit"]:focus {
     select the last list item in the list styling container using the ID, tag name, and pseudo-class selectors
 */
 /* ----- */
-{
+#list li:last-child{
     color: var(--dv-lt-blue);
 }
 
@@ -605,7 +605,7 @@ input[type="submit"]:focus {
     select all of the divs in the more styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-{
+#more div {
     display: flex;
     justify-content: center;
     align-items: center;
