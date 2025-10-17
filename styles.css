@@ -312,7 +312,7 @@ span {
     select the h2 in the first section using the ID, tag name, and child/descendant selectors
 */
 /* ----- */
-{
+#image > h2 {
     padding: 12px 0;
     background-color: var(--blue);
     color: var(--white);
@@ -327,7 +327,7 @@ span {
     select the h2 in the second section using the ID, tag name, and child/descendant selectors
 */
 /* ----- */
-{
+nav > h2 {
     padding: 12px 0;
     background-color: var(--green);
     color: var(--white);
@@ -339,7 +339,7 @@ span {
     select the unordered list in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-{
+nav ul {
     display: block;
     list-style-type: none;
     padding: 0;
@@ -352,7 +352,7 @@ span {
     select the list items in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-{
+#nav li {
     display: block;
     width: 100%;
 }
@@ -363,7 +363,7 @@ span {
     select the anchor tags in the navigation using the tag names and child/descendant selectors
 */
 /* ----- */
-{
+#nav a {
     display: block;
     width: 90%;
     margin: 16px auto;
@@ -384,7 +384,7 @@ span {
     select the anchor tags in the navigation on hover using the tag names, pseudo-class, and child/descendant selectors
 */
 /* ----- */
-{
+#nav a {
     background-color: var(--white);
     color: var(--green);
     box-shadow: var(--box-shadow-sm);
@@ -399,7 +399,7 @@ span {
     select the h2 in the third section using the class name selector
 */
 /* ----- */
-{
+.form h2{
     padding: 12px 0;
     background-color: var(--dv-fuchsia);
     color: var(--white);
@@ -411,7 +411,10 @@ span {
     select all of the inputs, labels, select dropdowns and text areas on the page by tag name
 */
 /* ----- */
-{
+label,
+input,
+select,
+textarea {
     display: block;
     width: 95%;
     margin: 0.5rem auto;
@@ -425,7 +428,8 @@ span {
     select all of the inputs and selects by tag name
 */
 /* ----- */
-{
+input,
+select {
     height: 2rem;
     border: 2px solid var(--dk-gray);
 }
