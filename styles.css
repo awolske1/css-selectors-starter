@@ -244,7 +244,7 @@ main {
     select the sections on the page that are direct descendants to the main by tag names and using the direct descendant selector
 */
 /* ----- */
-{
+main > section {
     display: block;
     width: calc(100% - 2rem);
     max-width: calc(500px - 2rem);
@@ -264,7 +264,7 @@ TO DO:
 select the paragraph elements by tag name
 */
 /* ----- */
-{
+p {
     padding: 1rem; 
     font-size: 1.2rem;
     max-width: 65ch;
@@ -280,7 +280,8 @@ select the paragraph elements by tag name
     select the images and SVGs by tag names
 */
 /* ----- */
-{
+img,
+svg {
     display: block;
     width: 100%;
     height: auto;
@@ -295,7 +296,7 @@ TO DO:
 select all of the spans by tag name
 */
 /* ----- */
-{
+span {
     display: block;
 }
 
