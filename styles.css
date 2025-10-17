@@ -440,7 +440,7 @@ select {
     select all of the inputs on focus (by tag name/pseudo-class) on the page
 */
 /* ----- */
-{
+input:focus {
     outline: 4px solid var(--orange);
     outline-offset: 2px;
     border: none;
@@ -452,7 +452,7 @@ select {
     select all of the inputs on focus (by tag name/pseudo-class) on the page
 */
 /* ----- */
-{
+input:focus {
     outline-color: var(--dv-dk-blue);
 }
 
@@ -462,7 +462,7 @@ select {
     select the labels in the form using the tag name/element selector
 */
 /* ----- */
-{
+form label {
     font-size: 1.25rem;
     margin-top: 16px;
 }
@@ -473,7 +473,7 @@ select {
     select the spans in the form using the class name selector
 */
 /* ----- */
-{
+span.required {
     font-size: 1.5rem;
     font-weight: bold;
     display: inline;
@@ -486,7 +486,7 @@ select {
     select all of the submit buttons (by tag name/type attribute) on the page
 */
 /* ----- */
-{
+input {
     display: block;
     margin: 32px auto 16px;
     width: 100%;
