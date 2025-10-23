@@ -766,7 +766,7 @@ caption {
     select the table header cells in the table styles section using the element/tag name, descendant, and ID selectors
 */
 /* ----- */
-#table thead { 
+#table th { 
     background-color: var(--blue);
     color: var(--white);
 }
