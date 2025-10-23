@@ -327,7 +327,7 @@ span {
     select the h2 in the second section using the ID, tag name, and child/descendant selectors
 */
 /* ----- */
-nav > h2 {
+#nav > h2 {
     padding: 12px 0;
     background-color: var(--green);
     color: var(--white);
@@ -399,7 +399,7 @@ nav ul {
     select the h2 in the third section using the class name selector
 */
 /* ----- */
-.form h2{
+#form > h2 {
     padding: 12px 0;
     background-color: var(--dv-fuchsia);
     color: var(--white);
@@ -617,11 +617,11 @@ input[type="submit"]:focus {
     select the first div in the more styling section using the ID, tag name and direct descendant selectors
   */
   /* ----- */
-#more > div:first-child {
-    width: 300px;
-    height: 300px;
-    background-color: var(--dv-red);
-    margin: 16px auto;
+#more > div {
+  width: 300px;
+  height: 300px;
+  background-color: var(--dv-red);
+  margin: 16px auto;
 }
 
 /* ----- */
@@ -630,7 +630,7 @@ input[type="submit"]:focus {
     select the second div in the more styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-#more div:nth-child(2) {
+#more div > div {
     width: 250px;
     height: 250px;
     background-color: var(--dv-orange);
@@ -654,7 +654,7 @@ input[type="submit"]:focus {
     select the fourth div in the pseudo-class styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-#pseudo-els .inner {
+#more .third > div {
     width: 150px;
     height: 150px;
     background-color: var(--dv-mint);
