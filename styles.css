@@ -384,7 +384,7 @@ nav ul {
     select the anchor tags in the navigation on hover using the tag names, pseudo-class, and child/descendant selectors
 */
 /* ----- */
-#nav a {
+#nav a:hover {
     background-color: var(--white);
     color: var(--green);
     box-shadow: var(--box-shadow-sm);
@@ -822,7 +822,7 @@ tfoot {
     select all of the divs in the border styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-{
+#borders div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -834,7 +834,7 @@ tfoot {
     select the first div in the border styling section using the ID, tag name and direct descendant selectors
   */
   /* ----- */
-{
+#borders > div {
     width: 300px;
     height: 300px;
     margin: 16px auto;
@@ -847,7 +847,7 @@ tfoot {
     select the second div in the border styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-{
+#borders div:nth-child(2) {
     width: 250px;
     height: 250px;
     border: 6px dotted var(--dv-orange);
@@ -856,10 +856,10 @@ tfoot {
 /* ----- */
 /* 
     TO DO:
-    select the third div in the border styling section using the ID, descendant, and class name selectors
+    select the third div in the border styling section using the ID, descendant, and class name selectors (there is no class name in the HTML)
 */
 /* ----- */
-{
+#borders .dashed {
     width: 200px;
     height: 200px;
     border: 6px dashed var(--dv-yellow);
