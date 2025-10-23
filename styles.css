@@ -754,7 +754,7 @@ table {
     select the caption in the table styles section using the element/tag name selector
 */
 /* ----- */
-{ 
+caption { 
     font-weight: bold;
     font-size: 1.25rem;
     margin-bottom: 8px;
@@ -766,7 +766,7 @@ table {
     select the table header cells in the table styles section using the element/tag name, descendant, and ID selectors
 */
 /* ----- */
-{ 
+#table thead { 
     background-color: var(--blue);
     color: var(--white);
 }
@@ -777,7 +777,7 @@ table {
     select the odd table rows in the table body of the table styles section using the element/tag name and the pseudo-class selectors
 */
 /* ----- */
-{ 
+tbody tr:nth-child(odd) { 
     background-color: var(--dv-orange);
 }
 
@@ -787,7 +787,7 @@ table {
     select the first column in the table body of the table styles section using the element/tag name and the pseudo-class selectors
 */
 /* ----- */
-{ 
+tbody td:first-child { 
     font-weight: bold;
 }
 
@@ -797,7 +797,8 @@ table {
     select the table heading cells (th) and the table data cells in the table styles section using the element/tag name and multiple element selectors
 */
 /* ----- */
-{ 
+th, 
+td { 
     border: 1px solid var(--dk-gray);
     padding: 4px;
 }
@@ -808,7 +809,7 @@ table {
     select the table footer in the table styles section using the element/tag name selector
 */
 /* ----- */
-{ 
+tfoot { 
     font-weight: bold;
 }
 
