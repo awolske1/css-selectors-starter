@@ -743,7 +743,7 @@ input[type="submit"]:focus {
     select the table in the table styles section using the element/tag name selector
 */
 /* ----- */
-{ 
+table { 
     border-collapse: collapse;
     width: 100%;
 }
